@@ -1,0 +1,104 @@
+{
+  "NAV": {
+    "HOME": "Home",
+    "ABOUT": "About",
+    "SERVICES": "Services",
+    "LAWYERS": "Our Lawyers",
+    "CONTACT": "Contact"
+  },
+  "HERO": {
+    "TITLE": "Justice. Integrity. Results.",
+    "SUBTITLE": "Trusted legal counsel for individuals and businesses. We fight for your rights with dedication and expertise.",
+    "CTA": "Free Consultation",
+    "CTA_SECONDARY": "Our Services"
+  },
+  "ABOUT": {
+    "LABEL": "About Us",
+    "TITLE": "Decades of Legal Excellence",
+    "DESCRIPTION": "With over 25 years of combined experience, our team of dedicated attorneys has successfully represented thousands of clients across a wide range of legal matters. We believe in a client-first approach, ensuring that every case receives the personal attention and strategic thinking it deserves.",
+    "DESCRIPTION_2": "Our firm was founded on the principle that everyone deserves access to exceptional legal representation. We combine deep legal knowledge with a genuine passion for justice.",
+    "STAT_1_VALUE": "25+",
+    "STAT_1_LABEL": "Years Experience",
+    "STAT_2_VALUE": "2,500+",
+    "STAT_2_LABEL": "Cases Won",
+    "STAT_3_VALUE": "98%",
+    "STAT_3_LABEL": "Client Satisfaction",
+    "STAT_4_VALUE": "15",
+    "STAT_4_LABEL": "Expert Attorneys"
+  },
+  "SERVICES": {
+    "LABEL": "Our Services",
+    "TITLE": "Areas of Practice",
+    "SUBTITLE": "We provide comprehensive legal services tailored to meet the unique needs of each client.",
+    "CORPORATE": {
+      "TITLE": "Corporate Law",
+      "DESCRIPTION": "Expert guidance in business formation, mergers & acquisitions, corporate governance, and commercial transactions."
+    },
+    "FAMILY": {
+      "TITLE": "Family Law",
+      "DESCRIPTION": "Compassionate representation in divorce, child custody, adoption, and other family matters."
+    },
+    "CRIMINAL": {
+      "TITLE": "Criminal Defense",
+      "DESCRIPTION": "Vigorous defense of your rights in criminal proceedings, from misdemeanors to complex felony cases."
+    },
+    "REAL_ESTATE": {
+      "TITLE": "Real Estate",
+      "DESCRIPTION": "Comprehensive legal support for property transactions, disputes, zoning issues, and land use matters."
+    },
+    "IMMIGRATION": {
+      "TITLE": "Immigration Law",
+      "DESCRIPTION": "Navigating complex immigration processes including visas, green cards, citizenship, and asylum cases."
+    },
+    "INTELLECTUAL": {
+      "TITLE": "Intellectual Property",
+      "DESCRIPTION": "Protection of your creative assets through patents, trademarks, copyrights, and trade secret litigation."
+    }
+  },
+  "LAWYERS": {
+    "LABEL": "Our Lawyers",
+    "TITLE": "Meet Our Attorneys",
+    "SUBTITLE": "Experienced professionals committed to protecting your rights and delivering exceptional results.",
+    "LAWYER_1": {
+      "NAME": "David Kapanadze",
+      "ROLE": "Managing Partner — Corporate Law",
+      "DESCRIPTION": "With 18 years of experience in corporate law and M&A, David has led over 200 high-profile transactions and serves as trusted counsel to Fortune 500 companies."
+    },
+    "LAWYER_2": {
+      "NAME": "Nino Beridze",
+      "ROLE": "Senior Partner — Family & Immigration Law",
+      "DESCRIPTION": "Nino brings 15 years of compassionate yet fierce advocacy in family and immigration cases. She has successfully reunited hundreds of families."
+    },
+    "LAWYER_3": {
+      "NAME": "Giorgi Lomidze",
+      "ROLE": "Partner — Criminal Defense & Litigation",
+      "DESCRIPTION": "A seasoned trial attorney with a 95% acquittal rate, Giorgi has 12 years of experience defending clients in complex criminal and civil litigation."
+    }
+  },
+  "CONTACT": {
+    "LABEL": "Contact Us",
+    "TITLE": "Get in Touch",
+    "SUBTITLE": "Schedule a consultation or send us a message. We're here to help with your legal needs.",
+    "NAME": "Full Name",
+    "EMAIL": "Email Address",
+    "PHONE": "Phone Number",
+    "MESSAGE": "Your Message",
+    "SEND": "Send Message",
+    "INFO_TITLE": "Contact Information",
+    "ADDRESS": "123 Justice Avenue, Suite 500",
+    "ADDRESS_2": "Tbilisi, Georgia",
+    "PHONE_VALUE": "+995 555 123 456",
+    "EMAIL_VALUE": "info@lawfirm.ge",
+    "HOURS_TITLE": "Office Hours",
+    "HOURS_WEEKDAY": "Monday - Friday: 9:00 - 18:00",
+    "HOURS_SATURDAY": "Saturday: 10:00 - 14:00",
+    "HOURS_SUNDAY": "Sunday: Closed"
+  },
+  "FOOTER": {
+    "DESCRIPTION": "Providing exceptional legal services with integrity, dedication, and a commitment to justice for over two decades.",
+    "QUICK_LINKS": "Quick Links",
+    "CONTACT_US": "Contact Us",
+    "RIGHTS": "All rights reserved.",
+    "FIRM_NAME": "LawFirm"
+  }
+}

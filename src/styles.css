@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+/*
+  ============================================
+  COLOR SYSTEM — Change these to re-theme the entire app.
+  ============================================
+  primary  = dark blue (main brand color)
+  secondary = lighter/complementary blue
+  accent   = warm gold (call-to-action, highlights)
+  neutral  = slate grays (text, backgrounds)
+  ============================================
+*/
+:root {
+  /* Primary — dark blue */
+  --color-primary-50: #e8edf5;
+  --color-primary-100: #c5d1e8;
+  --color-primary-200: #9eb3d9;
+  --color-primary-300: #7795ca;
+  --color-primary-400: #5a7ebf;
+  --color-primary-500: #3d67b5;
+  --color-primary-600: #355aa0;
+  --color-primary-700: #2b4a85;
+  --color-primary-800: #213a6b;
+  --color-primary-900: #152a52;
+  --color-primary-950: #0c1a35;
+
+  /* Secondary — steel blue */
+  --color-secondary-50: #edf2f7;
+  --color-secondary-100: #d1dce8;
+  --color-secondary-200: #b3c5d9;
+  --color-secondary-300: #94aeca;
+  --color-secondary-400: #7d9dbf;
+  --color-secondary-500: #668cb4;
+  --color-secondary-600: #587aa0;
+  --color-secondary-700: #476486;
+  --color-secondary-800: #374f6c;
+  --color-secondary-900: #273a52;
+  --color-secondary-950: #1a2738;
+
+  /* Accent — warm gold */
+  --color-accent-50: #fdf8eb;
+  --color-accent-100: #f9edcc;
+  --color-accent-200: #f3daaa;
+  --color-accent-300: #edc688;
+  --color-accent-400: #e8b66f;
+  --color-accent-500: #e3a655;
+  --color-accent-600: #d4943c;
+  --color-accent-700: #b37a30;
+  --color-accent-800: #926126;
+  --color-accent-900: #784f1f;
+  --color-accent-950: #4a3012;
+
+  /* Neutral — slate */
+  --color-neutral-50: #f8fafc;
+  --color-neutral-100: #f1f5f9;
+  --color-neutral-200: #e2e8f0;
+  --color-neutral-300: #cbd5e1;
+  --color-neutral-400: #94a3b8;
+  --color-neutral-500: #64748b;
+  --color-neutral-600: #475569;
+  --color-neutral-700: #334155;
+  --color-neutral-800: #1e293b;
+  --color-neutral-900: #0f172a;
+  --color-neutral-950: #020617;
+}
+
+@theme {
+  --color-primary-50: var(--color-primary-50);
+  --color-primary-100: var(--color-primary-100);
+  --color-primary-200: var(--color-primary-200);
+  --color-primary-300: var(--color-primary-300);
+  --color-primary-400: var(--color-primary-400);
+  --color-primary-500: var(--color-primary-500);
+  --color-primary-600: var(--color-primary-600);
+  --color-primary-700: var(--color-primary-700);
+  --color-primary-800: var(--color-primary-800);
+  --color-primary-900: var(--color-primary-900);
+  --color-primary-950: var(--color-primary-950);
+
+  --color-secondary-50: var(--color-secondary-50);
+  --color-secondary-100: var(--color-secondary-100);
+  --color-secondary-200: var(--color-secondary-200);
+  --color-secondary-300: var(--color-secondary-300);
+  --color-secondary-400: var(--color-secondary-400);
+  --color-secondary-500: var(--color-secondary-500);
+  --color-secondary-600: var(--color-secondary-600);
+  --color-secondary-700: var(--color-secondary-700);
+  --color-secondary-800: var(--color-secondary-800);
+  --color-secondary-900: var(--color-secondary-900);
+  --color-secondary-950: var(--color-secondary-950);
+
+  --color-accent-50: var(--color-accent-50);
+  --color-accent-100: var(--color-accent-100);
+  --color-accent-200: var(--color-accent-200);
+  --color-accent-300: var(--color-accent-300);
+  --color-accent-400: var(--color-accent-400);
+  --color-accent-500: var(--color-accent-500);
+  --color-accent-600: var(--color-accent-600);
+  --color-accent-700: var(--color-accent-700);
+  --color-accent-800: var(--color-accent-800);
+  --color-accent-900: var(--color-accent-900);
+  --color-accent-950: var(--color-accent-950);
+
+  --color-neutral-50: var(--color-neutral-50);
+  --color-neutral-100: var(--color-neutral-100);
+  --color-neutral-200: var(--color-neutral-200);
+  --color-neutral-300: var(--color-neutral-300);
+  --color-neutral-400: var(--color-neutral-400);
+  --color-neutral-500: var(--color-neutral-500);
+  --color-neutral-600: var(--color-neutral-600);
+  --color-neutral-700: var(--color-neutral-700);
+  --color-neutral-800: var(--color-neutral-800);
+  --color-neutral-900: var(--color-neutral-900);
+  --color-neutral-950: var(--color-neutral-950);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  color: var(--color-neutral-800);
+  background-color: var(--color-neutral-50);
+}
+
