@@ -31,6 +31,7 @@ export class Contact {
         environment.emailjs.templateId,
         {
           name: this.formData().name,
+          email: this.formData().email,
           time: new Date().toLocaleString(),
           message: this.formData().message,
           phone: this.formData().phone,
