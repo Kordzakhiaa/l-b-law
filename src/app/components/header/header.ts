@@ -75,4 +75,27 @@ export class Header implements OnInit, OnDestroy {
     this.closeMobileMenu();
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
   }
+
+  onPrimaryColorChange(hex: string) {
+    const r = parseInt(hex.slice(1, 3), 16);
+    const g = parseInt(hex.slice(3, 5), 16);
+    const b = parseInt(hex.slice(5, 7), 16);
+    const shades: Record<string, [number, number, number]> = {
+      '50':  [Math.min(r + 180, 255), Math.min(g + 180, 255), Math.min(b + 180, 255)],
+      '100': [Math.min(r + 150, 255), Math.min(g + 150, 255), Math.min(b + 150, 255)],
+      '200': [Math.min(r + 115, 255), Math.min(g + 115, 255), Math.min(b + 115, 255)],
+      '300': [Math.min(r + 80, 255), Math.min(g + 80, 255), Math.min(b + 80, 255)],
+      '400': [Math.min(r + 45, 255), Math.min(g + 45, 255), Math.min(b + 45, 255)],
+      '500': [r, g, b],
+      '600': [Math.round(r * 0.85), Math.round(g * 0.85), Math.round(b * 0.85)],
+      '700': [Math.round(r * 0.7), Math.round(g * 0.7), Math.round(b * 0.7)],
+      '800': [Math.round(r * 0.55), Math.round(g * 0.55), Math.round(b * 0.55)],
+      '900': [Math.round(r * 0.38), Math.round(g * 0.38), Math.round(b * 0.38)],
+      '950': [Math.round(r * 0.22), Math.round(g * 0.22), Math.round(b * 0.22)],
+    };
+    const root = document.documentElement;
+    for (const [shade, [sr, sg, sb]] of Object.entries(shades)) {
+      root.style.setProperty(`--color-primary-${shade}`, `#${sr.toString(16).padStart(2,'0')}${sg.toString(16).padStart(2,'0')}${sb.toString(16).padStart(2,'0')}`);
+    }
+  }
 }
