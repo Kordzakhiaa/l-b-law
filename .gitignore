@@ -1,17 +1,48 @@
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files
 
-# Compiled output
+# --- Angular / build output ---
 /dist
 /tmp
 /out-tsc
 /bazel-out
+/.angular/cache
 
-# Node
-/node_modules
-npm-debug.log
-yarn-error.log
+# --- Dependencies ---
+node_modules/
 
-# IDEs and editors
+# --- Logs & diagnostics ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+testem.log
+/libpeerconnection.log
+/connect.lock
+
+# --- Test & coverage ---
+/coverage
+.nyc_output
+__screenshots__/
+
+# --- TypeScript / tooling caches ---
+*.tsbuildinfo
+.eslintcache
+.prettiercache
+.sass-cache/
+/typings
+
+# --- Local secrets (do not commit real keys) ---
+.env
+.env.*
+!.env.example
+
+# Optional: local-only Angular environment overrides (uncomment if you use this pattern)
+# /src/environments/environment.local.ts
+
+# --- IDEs & editors ---
 .idea/
 .project
 .classpath
@@ -19,8 +50,13 @@ yarn-error.log
 *.launch
 .settings/
 *.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-# Visual Studio Code
+# Visual Studio Code — track shared workspace config only
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -29,16 +65,16 @@ yarn-error.log
 !.vscode/mcp.json
 .history/*
 
-# Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
-__screenshots__/
-
-# System files
+# --- OS ---
 .DS_Store
+.AppleDouble
+.LSOverride
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Misc ---
+*.tgz
+*.pid
+*.seed
+*.pid.lock
