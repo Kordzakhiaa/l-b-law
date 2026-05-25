@@ -2,103 +2,132 @@
   "NAV": {
     "HOME": "Home",
     "ABOUT": "About",
+    "LAWYERS": "Our Team",
     "SERVICES": "Services",
-    "LAWYERS": "Our Lawyers",
     "CONTACT": "Contact"
   },
   "HERO": {
-    "TITLE": "Justice. Integrity. Results.",
-    "SUBTITLE": "Trusted legal counsel for individuals and businesses. We fight for your rights with dedication and expertise.",
+    "TITLE": "Law. Audit. Expertise.",
+    "SUBTITLE": "L & B LLC offers licensed lawyers, certified auditors, and property appraisal experts. We identify weaknesses in your business and outline paths for growth.",
     "CTA": "Free Consultation",
     "CTA_SECONDARY": "Our Services"
   },
   "ABOUT": {
     "LABEL": "About Us",
-    "TITLE": "Decades of Legal Excellence",
-    "DESCRIPTION": "With over 25 years of combined experience, our team of dedicated attorneys has successfully represented thousands of clients across a wide range of legal matters. We believe in a client-first approach, ensuring that every case receives the personal attention and strategic thinking it deserves.",
-    "DESCRIPTION_2": "Our firm was founded on the principle that everyone deserves access to exceptional legal representation. We combine deep legal knowledge with a genuine passion for justice.",
-    "STAT_1_VALUE": "25+",
+    "TITLE": "Why L & B?",
+    "DESCRIPTION": "L & B LLC is represented by licensed lawyers, advocates, certified auditors, and experts registered with the Accounting, Reporting and Auditing Supervision Service, the Property Appraiser Expert Registry, the Georgian Bar Association (general specialization), and the Mediators Registry. The company is focused on identifying potential weaknesses in your business and outlining development perspectives.",
+    "DESCRIPTION_2": "Why us?",
+    "DESCRIPTION_3": "We offer exclusive corporate services at discounted rates — 10% below market prices",
+    "DESCRIPTION_4": "Our service is expedited at no additional cost",
+    "DESCRIPTION_5": "Our work is focused solely on successful outcomes",
+    "DESCRIPTION_6": "Our goal is client satisfaction through high-quality professional service",
+    "STAT_1_VALUE": "15+",
     "STAT_1_LABEL": "Years Experience",
-    "STAT_2_VALUE": "2,500+",
-    "STAT_2_LABEL": "Cases Won",
-    "STAT_3_VALUE": "98%",
-    "STAT_3_LABEL": "Client Satisfaction",
-    "STAT_4_VALUE": "15",
-    "STAT_4_LABEL": "Expert Attorneys"
+    "STAT_2_VALUE": "9",
+    "STAT_2_LABEL": "Service Areas"
   },
   "SERVICES": {
     "LABEL": "Our Services",
-    "TITLE": "Areas of Practice",
-    "SUBTITLE": "We provide comprehensive legal services tailored to meet the unique needs of each client.",
-    "CORPORATE": {
-      "TITLE": "Corporate Law",
-      "DESCRIPTION": "Expert guidance in business formation, mergers & acquisitions, corporate governance, and commercial transactions."
+    "TITLE": "Service Packages",
+    "SUBTITLE": "We provide comprehensive legal, audit, and consulting services tailored to meet the unique needs of each client.",
+    "READ_MORE": "Read More",
+    "CLOSE": "Close",
+    "FINANCIAL_AUDIT": {
+      "TITLE": "Financial Statement Audit",
+      "DESCRIPTION": "Verification of financial statements against international standards — balance sheet, profit & loss, cash flow, and equity changes. Audit conclusions with detailed recommendations.",
+      "FULL": "Financial statement audit involves verifying a company's financial statements for compliance with international standards. The statements reviewed include: financial position (balance sheet), operating results (profit & loss), cash flow, and statement of changes in equity.\n\nAs a result, an audit opinion is issued. The information in the audit opinion (if desired) will be public, which increases trust in the company and is intended for a wide range of users. Companies will also receive a detailed report on identified deficiencies, with recommendations for their correction and elimination."
     },
-    "FAMILY": {
-      "TITLE": "Family Law",
-      "DESCRIPTION": "Compassionate representation in divorce, child custody, adoption, and other family matters."
+    "TAX_AUDIT": {
+      "TITLE": "Tax Audit",
+      "DESCRIPTION": "Assessment of accounting and tax records, tax risk evaluation and minimization. Includes tax consultations, financial audit, and participation in tax disputes.",
+      "FULL": "Tax audit involves examining the state of accounting and tax records, assessing tax risks and minimizing them.\n\nTax audit includes: consultations on tax matters, financial audit, tax audit, and participation in tax disputes."
     },
-    "CRIMINAL": {
-      "TITLE": "Criminal Defense",
-      "DESCRIPTION": "Vigorous defense of your rights in criminal proceedings, from misdemeanors to complex felony cases."
+    "PROPERTY_VALUATION": {
+      "TITLE": "Property & Asset Valuation",
+      "DESCRIPTION": "Valuation of real estate, movable property, and intangible assets per international standards. Damage assessment, business valuation, merger/division evaluations, and property dispute appraisals.",
+      "FULL": "We have many years of successful experience and all necessary rights (certificate, license) to carry out our activities. We perform valuation work in full compliance with international valuation standards and Georgian regulations.\n\nProcesses requiring valuation services:\n• Valuation of real estate, movable and intangible assets\n• Damage/loss assessment\n• Buying/selling of business or business shares\n• Company division/merger\n• Collateral replacement\n• Tax disputes\n• Gratuitous receipt/transfer of property\n• Purchase/sale or barter-type operations\n• Determining asset value\n• Property disputes (divorce, valuation of inherited property)\n• Forced expropriation, property valuation during resettlement and determination of compensation amounts, and more"
     },
-    "REAL_ESTATE": {
-      "TITLE": "Real Estate",
-      "DESCRIPTION": "Comprehensive legal support for property transactions, disputes, zoning issues, and land use matters."
+    "LEGAL": {
+      "TITLE": "Legal Services",
+      "DESCRIPTION": "Representation for individuals and legal entities in civil, administrative, criminal, tax, and financial matters — in court, arbitration, and before administrative bodies. Legal consultations in person and online.",
+      "FULL": "We provide representation services for individuals and legal entities in civil, administrative, criminal, tax, and financial matters in courts, arbitration, with third parties, and before administrative bodies. We provide legal assistance to clients in document preparation, offer legal consultations both in person at the office and online."
     },
-    "IMMIGRATION": {
-      "TITLE": "Immigration Law",
-      "DESCRIPTION": "Navigating complex immigration processes including visas, green cards, citizenship, and asylum cases."
+    "TRAINING": {
+      "TITLE": "Trainings",
+      "DESCRIPTION": "Professional training on legal matters, entrepreneurial activities, and accounting-reporting. Coverage of latest developments with practical case studies.",
+      "FULL": "Professional training on any legal matters, entrepreneurial activities, and in the field of accounting and reporting. Introduction to latest developments and discussion of practical examples."
     },
-    "INTELLECTUAL": {
-      "TITLE": "Intellectual Property",
-      "DESCRIPTION": "Protection of your creative assets through patents, trademarks, copyrights, and trade secret litigation."
+    "EXPERTISE": {
+      "TITLE": "Financial & Construction Expertise",
+      "DESCRIPTION": "Accounting, financial, and tax expertise. Construction project documentation review, cost estimate inspection, technical supervision, and investment project analysis.",
+      "FULL": "• Accounting expertise\n• Financial expertise\n• Tax expertise\n• Project-estimate documentation expertise\n• Compliance expertise of actually completed construction, repair, and installation works with project-estimate documentation\n• Object cost estimate inspection\n• Object cost estimate pricing adequacy inspection\n• Inspection of completed works on objects (including according to Form #2)\n• Technical supervision of construction works — inspection, assessment of construction project compliance with current documents\n\nExpertise of investment projects and portfolios; business risk insurance and reinsurance expertise; industrial-management structure and decision expertise. General commodity expertise, thematic expertise."
+    },
+    "TENDER": {
+      "TITLE": "Tender Participation",
+      "DESCRIPTION": "Full tender support — procurement procedure guidance, monitoring, documentation preparation, commission communication, electronic registration, and appeals for unfair practices.",
+      "FULL": "If interested in tender participation, we offer the following services:\n• Recommendations regarding procurement procedures and systems\n• Monitoring and providing information about tenders announced for product and service procurement\n• Preparation of tender documentation\n• Consultation during tender document preparation or review of submitted documents\n• Communication with the competition commission to clarify competition terms\n• Registration of participants in the electronic system and sending documents\n• Participation in the procurement process on behalf of the client\n• Filing appeals in cases of unfair trading practices, and more"
+    },
+    "BUSINESS_PLAN": {
+      "TITLE": "Business Plans & Grants",
+      "DESCRIPTION": "Development and preparation of business plans and grant project applications for entrepreneurial development.",
+      "FULL": "Development and preparation of business plans and grant project applications for entrepreneurial development."
+    },
+    "MEDIATION": {
+      "TITLE": "Mediation",
+      "DESCRIPTION": "Flexible and voluntary dispute resolution. Mediation achieves agreements faster and at a fraction of litigation costs, directed toward mutual consensus.",
+      "FULL": "The company offers mediator services and the mediation process. For businesses, conducting various types of disputes is an everyday reality. Accordingly, a dispute started in court lasts for years and in a number of cases is associated with unreasonable time and costs, which causes parties to lose interest in achieving justice.\n\nMediation is a flexible and voluntary method of dispute resolution, aimed at concluding disputes through mutual agreement. Mediation achieves simplified agreements at minimal financial cost and within compressed timeframes."
     }
   },
   "LAWYERS": {
-    "LABEL": "Our Lawyers",
-    "TITLE": "Meet Our Attorneys",
-    "SUBTITLE": "Experienced professionals committed to protecting your rights and delivering exceptional results.",
-    "LAWYER_1": {
-      "NAME": "David Kapanadze",
-      "ROLE": "Managing Partner — Corporate Law",
-      "DESCRIPTION": "With 18 years of experience in corporate law and M&A, David has led over 200 high-profile transactions and serves as trusted counsel to Fortune 500 companies."
+    "LABEL": "Our Team",
+    "TITLE": "Meet Our Experts",
+    "SUBTITLE": "Experienced professionals in law, audit, and business administration.",
+    "MEMBER": {
+      "NAME": "Luka Mtibelashvili",
+      "ROLE": "Business Administration & Finance Specialist",
+      "DESCRIPTION": "Specialist in business administration and finance with academic experience in business management, accounting, finance, auditing, and financial reporting. Currently pursuing a PhD in Business Administration and Management at Grigol Robakidze University, focusing on research and analytical skills in business strategy, organizational efficiency, and financial decision-making.",
+      "DESCRIPTION_2": "Holds a Master's degree in Accounting and Finance from IU International University of Applied Sciences (research on financial stability and optimization) and a Master's in Business Administration from Ilia State University (research on implementing international accounting, financial reporting, and auditing standards in Georgia)."
     },
-    "LAWYER_2": {
-      "NAME": "Nino Beridze",
-      "ROLE": "Senior Partner — Family & Immigration Law",
-      "DESCRIPTION": "Nino brings 15 years of compassionate yet fierce advocacy in family and immigration cases. She has successfully reunited hundreds of families."
+    "MEMBER_2": {
+      "NAME": "Bela Vardidze",
+      "ROLE": "Head of Business Division — Auditor",
+      "DESCRIPTION": "Public sector auditor, property appraiser and auditor (Registration # SARAS-A-518452, Order #210, 07/12/2016).",
+      "DESCRIPTION_2": "40 years of experience in the economic sector. 26 years of experience in audit practice."
     },
-    "LAWYER_3": {
-      "NAME": "Giorgi Lomidze",
-      "ROLE": "Partner — Criminal Defense & Litigation",
-      "DESCRIPTION": "A seasoned trial attorney with a 95% acquittal rate, Giorgi has 12 years of experience defending clients in complex criminal and civil litigation."
+    "MEMBER_3": {
+      "NAME": "Marine Kordzadze",
+      "ROLE": "Head of Legal Division — Lawyer/Advocate",
+      "DESCRIPTION": "Associate Professor with general law specialization, specialist in entrepreneurial/tax law.",
+      "DESCRIPTION_2": "20 years of experience in tax authorities. 25 years of practical experience as an advocate."
     }
   },
   "CONTACT": {
     "LABEL": "Contact Us",
     "TITLE": "Get in Touch",
-    "SUBTITLE": "Schedule a consultation or send us a message. We're here to help with your legal needs.",
+    "SUBTITLE": "Schedule a consultation or send us a message. We provide consultations both in person and online.",
     "NAME": "Full Name",
     "EMAIL": "Email Address",
     "PHONE": "Phone Number",
     "MESSAGE": "Your Message",
     "SEND": "Send Message",
+    "SENDING": "Sending...",
+    "SUCCESS": "Message sent successfully! We will get back to you soon.",
+    "ERROR": "Failed to send message. Please try again or contact us directly.",
     "INFO_TITLE": "Contact Information",
-    "ADDRESS": "123 Justice Avenue, Suite 500",
-    "ADDRESS_2": "Tbilisi, Georgia",
-    "PHONE_VALUE": "+995 555 123 456",
-    "EMAIL_VALUE": "info@lawfirm.ge",
+    "ADDRESS": "7 Khosharauli St., Floor 1, N37",
+    "ADDRESS_2": "Didube-Chughureti District, Tbilisi, Georgia",
+    "PHONE_VALUE": "+995 599 23 00 44",
+    "EMAIL_VALUE": "l.mtibelashvili@gmail.com",
     "HOURS_TITLE": "Office Hours",
-    "HOURS_WEEKDAY": "Monday - Friday: 9:00 - 18:00",
-    "HOURS_SATURDAY": "Saturday: 10:00 - 14:00",
-    "HOURS_SUNDAY": "Sunday: Closed"
+    "HOURS_WEEKDAY": "Monday - Friday: 9:00 AM - 6:00 PM",
+    "HOURS_SATURDAY": "Saturday - Sunday: Closed"
   },
   "FOOTER": {
-    "DESCRIPTION": "Providing exceptional legal services with integrity, dedication, and a commitment to justice for over two decades.",
+    "DESCRIPTION": "Licensed lawyers, certified auditors, and property appraisal experts offering exclusive corporate services with a focus on successful outcomes.",
     "QUICK_LINKS": "Quick Links",
     "CONTACT_US": "Contact Us",
     "RIGHTS": "All rights reserved.",
-    "FIRM_NAME": "LawFirm"
+    "FIRM_NAME": "L & B",
+    "COMPANY_ID": "ID: 404413577"
   }
 }

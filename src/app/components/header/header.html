@@ -7,25 +7,8 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-20">
       <!-- Logo -->
-      <a (click)="scrollTo('hero')" class="flex items-center gap-3 cursor-pointer">
-        <div class="w-10 h-10 bg-accent-500 rounded-lg flex items-center justify-center">
-          <svg
-            class="w-6 h-6 text-white"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M3 6l9-4 9 4v2H3V6zM4 10h16v2H4v-2zM5 14h14v6H5v-6zM3 22h18"
-            />
-          </svg>
-        </div>
-        <span class="text-xl font-bold text-white transition-colors duration-300">
-          {{ 'FOOTER.FIRM_NAME' | translate }}
-        </span>
+      <a (click)="scrollTo('hero')" class="flex items-center cursor-pointer">
+        <img src="images/logo-full.png" alt="L & B" class="h-16 w-auto brightness-0 invert" />
       </a>
 
       <!-- Desktop Navigation -->
@@ -42,7 +25,9 @@
         ) {
           <a
             (click)="scrollTo(item.section)"
-            class="text-sm font-medium tracking-wide cursor-pointer transition-colors duration-200 text-white/90 hover:text-accent-400"
+            class="text-sm font-medium tracking-wide cursor-pointer transition-all duration-300 text-white/90 hover:text-white px-3 py-1.5 rounded-lg"
+            [class.bg-white/15]="activeSection() === item.section"
+            [class.text-white]="activeSection() === item.section"
           >
             {{ item.key | translate }}
           </a>
@@ -103,7 +88,8 @@
         ) {
           <a
             (click)="scrollTo(item.section)"
-            class="block text-white font-medium text-lg py-2 border-b border-primary-800 cursor-pointer hover:text-accent-400 transition-colors"
+            class="block font-medium text-lg py-2 border-b border-primary-800 cursor-pointer transition-all duration-300 text-white hover:text-white/80 px-3 rounded-lg"
+            [class.bg-white/10]="activeSection() === item.section"
           >
             {{ item.key | translate }}
           </a>

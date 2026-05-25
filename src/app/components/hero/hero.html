@@ -10,9 +10,9 @@
   }
 
   <!-- Dark overlay on top of slideshow -->
-  <div class="absolute inset-0 bg-primary-950/70"></div>
+  <div class="absolute inset-0 bg-primary-950/55"></div>
   <div
-    class="absolute inset-0 bg-gradient-to-br from-primary-950/80 via-primary-900/50 to-primary-800/40"
+    class="absolute inset-0 bg-gradient-to-br from-primary-950/60 via-primary-900/35 to-primary-800/25"
   ></div>
 
   <!-- Decorative elements -->
@@ -41,25 +41,8 @@
 
       <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
         <a
-          (click)="$event.preventDefault()"
-          href="#"
-          class="inline-flex items-center justify-center gap-2 bg-accent-500 hover:bg-accent-600 text-white font-semibold px-6 py-3 sm:px-8 sm:py-4 rounded-xl transition-all duration-200 shadow-lg shadow-accent-500/25 hover:shadow-accent-500/40 hover:-translate-y-0.5 text-sm sm:text-base"
-        >
-          {{ 'HERO.CTA' | translate }}
-          <svg
-            class="w-4 h-4 sm:w-5 sm:h-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-          </svg>
-        </a>
-        <a
-          (click)="$event.preventDefault()"
-          href="#services"
-          class="inline-flex items-center justify-center gap-2 border-2 border-white/30 hover:border-white/60 text-white font-semibold px-6 py-3 sm:px-8 sm:py-4 rounded-xl transition-all duration-200 hover:-translate-y-0.5 text-sm sm:text-base"
+          (click)="scrollTo('services')"
+          class="inline-flex items-center justify-center gap-2 bg-accent-500 hover:bg-accent-600 text-white font-semibold px-6 py-3 sm:px-8 sm:py-4 rounded-xl transition-all duration-200 shadow-lg shadow-accent-500/25 hover:shadow-accent-500/40 hover:-translate-y-0.5 text-sm sm:text-base cursor-pointer"
         >
           {{ 'HERO.CTA_SECONDARY' | translate }}
         </a>

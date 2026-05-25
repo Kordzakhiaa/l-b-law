@@ -12,11 +12,12 @@ export class Hero implements OnInit, OnDestroy {
   private intervalId: ReturnType<typeof setInterval> | null = null;
 
   slides = [
-    'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&h=1080&fit=crop',
-    'https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=1920&h=1080&fit=crop',
-    'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1920&h=1080&fit=crop',
-    'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1920&h=1080&fit=crop',
-    'https://images.unsplash.com/photo-1521791055366-0d553872125f?w=1920&h=1080&fit=crop',
+    'images/slide-1.jpeg',
+    'images/slide-2.jpeg',
+    'images/slide-3.jpeg',
+    'images/slide-4.jpeg',
+    'images/slide-5.jpeg',
+    'images/slide-7.jpeg',
   ];
 
   ngOnInit() {
@@ -29,5 +30,9 @@ export class Hero implements OnInit, OnDestroy {
     if (this.intervalId) {
       clearInterval(this.intervalId);
     }
+  }
+
+  scrollTo(sectionId: string) {
+    document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
   }
 }

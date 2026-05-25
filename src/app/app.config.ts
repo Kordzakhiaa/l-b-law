@@ -12,7 +12,7 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes),
     provideHttpClient(),
     provideTranslateService({
-      defaultLanguage: 'en',
+      defaultLanguage: 'ka',
     }),
     provideTranslateHttpLoader({
       prefix: './i18n/',
